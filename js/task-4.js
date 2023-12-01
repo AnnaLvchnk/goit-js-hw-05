@@ -4,7 +4,6 @@ const getTotalBalanceByGender = (users, gender) => {
     .reduce((sum, userBal) => {
       return sum + userBal.balance;
     }, 0);
-
   return result;
 };
 const allUsers = [
